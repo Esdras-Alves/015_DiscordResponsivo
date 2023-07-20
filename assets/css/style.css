@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url(./reset.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    height: 506px;
+    background: url(../images/header-background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px;
+    gap: 24px;
+    margin: 70px 0;
+}
+
+#title {
+    width: 278px;
+    color: #fff;
+    font-family: Luckiest Guy;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.text-01 {
+    width: 381px;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+button {
+    width: 381px;   
+    height: 54px;
+    border-radius: 28px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.button-01 {
+    background: #FFF;
+    color: #23272A;
+}
+
+.button-02 {
+    background: #23272A;
+    color: #FFF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-image1 {
+    background: url(../images/section-image1.svg), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 88.55vw;
+    height: 58.87vw;
+}
+
+.section-image2 {
+    background: url(../images/section-image2.svg), lightgray 50% / cover no-repeat;
+    width: 379px;
+    height: 252px;
+}
+
+.section-image3 {
+    background: url(../images/section-image3.svg), lightgray 50% / cover no-repeat;
+    width: 379px;
+    height: 252px;
+}
+
+.section-image4 {
+    background: url(../images/section-image4.svg), lightgray 50% / cover no-repeat;
+    width: 379px;
+    height: 252px;
+    background-size: contain;
+}
+
+.section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.section-01 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    width: 100%;
+}
+
+.section-02 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    background: #F6F6F6;
+    width: 100%;
+}
+
+.section-title {
+    width: 370px;
+    color: #23272A;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.section-sub {
+    width: 378px;
+    color: #23272A;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-title2 {
+    width: 376px;
+    color: #23272A;
+    font-family: Luckiest Guy;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    background: #23272A;
+    background-image: url("../images/discord-logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (min-width: 1170px), (orientation: landscape) {
+
+    header {
+        width: 100%;
+        height: 459px;
+        background: url(../images/header-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+    
+    #title {
+        width: 313px;
+        color: #fff;
+        text-align: center;
+        font-family: Luckiest Guy;
+        font-size: 56px;
+        font-weight: 400;
+    }
+    
+    .text-01 {
+        width: 757px;
+        text-align: center;
+        color: #FFF;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+    }
+    
+    button {
+        height: 44px;
+        border-radius: 28px;
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+    }
+    
+    .button-01 {
+        width: 205px;  
+        background: #FFF;
+        color: #23272A;
+    }
+    
+    .button-02 {
+        width: 281px;  
+        background: #23272A;
+        color: #FFF;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-text {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .section-image1 {
+        background: url(../images/section-image1.svg), lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 607px;
+        height: 394px;
+    }
+    
+    .section-image2 {
+        background: url(../images/section-image2.svg), lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 607px;
+        height: 394px;
+    }
+    
+    .section-image3 {
+        background: url(../images/section-image3.svg), lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 607px;
+        height: 394px;
+    }
+    
+    .section-image4 {
+        background: url(../images/section-image4.svg), lightgray 50% / cover no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 784px;
+        height: 508px;
+       }
+    
+    .section-01 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        width: 100%;
+    }
+    
+    .section-02 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+        background: #F6F6F6;
+        width: 100%;
+    }
+
+    .section-wide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0px;
+        gap: 16px;
+        background: #F6F6F6;
+        width: 100%;
+    }
+    
+    .section-title {
+        width: 329px;
+        color: #23272A;
+        font-family: Open Sans;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    .section-sub {
+        width: 348px;
+        color: #23272A;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .section-title2 {
+        width: 608px;
+        color: #23272A;
+        font-family: Luckiest Guy;
+        font-size: 40px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .sub-wide {
+        width: 802px;
+        color: #23272A;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .text-wide {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+    
+    footer {
+        display: flex;
+        width: 100%;
+        height: 134px;
+        justify-content: center;
+        align-items: center;
+        background: #23272A;
+        background-image: url("../images/discord-logo.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 230px 63px;
+
+    }
+
+}
